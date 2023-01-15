@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{5dbd9931-b95e-4e87-a704-90d52b08fe1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPPs">
+      <UniqueIdentifier>{165020cb-6b01-49bc-a1a6-073836299753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPPs\Weapon">
+      <UniqueIdentifier>{bd16b08e-c147-4108-a912-d95bb584f5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPPs\GameObjectsAndManagers">
+      <UniqueIdentifier>{ca42ba69-e39d-4d97-b5cd-e7749a4fa62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPPs\Entity">
+      <UniqueIdentifier>{cdfe0ab1-0ebe-4fbb-ae7d-841b08589c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPPs\Ship">
+      <UniqueIdentifier>{2e18fe73-44bd-4db3-aa94-30619c50b68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Entity">
+      <UniqueIdentifier>{c123fa83-585f-4f5c-9312-bad92ee9a10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Weapon">
+      <UniqueIdentifier>{3fea7db2-0d6b-4491-bbb0-bdfb11786571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Ship">
+      <UniqueIdentifier>{6aa0baed-4264-4171-9cb0-de9d3d168ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GameObjectsAndManagers">
+      <UniqueIdentifier>{5dd868bb-1125-41e9-8af3-cde8643226a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attacker.h">
+      <Filter>Headers\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Caravan.h">
+      <Filter>Headers\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Defender.h">
+      <Filter>Headers\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Headers\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Support.h">
+      <Filter>Headers\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Commander.h">
+      <Filter>Headers\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>Headers\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="FightManager.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSystem.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Headers\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>Headers\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Headers\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Headers\GameObjectsAndManagers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Caravan.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Defender.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Support.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="FightManager.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>CPPs\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot.cpp">
+      <Filter>CPPs\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CPPs\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>CPPs\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>CPPs\GameObjectsAndManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSystem.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>CPPs\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Attacker.cpp">
+      <Filter>CPPs\Ship</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
